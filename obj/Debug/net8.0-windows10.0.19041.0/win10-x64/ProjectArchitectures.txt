@@ -1,0 +1,1 @@
+D:\My Projects\C# Projects\Net Maui\TaskPulse\TaskPulse.csproj;x64

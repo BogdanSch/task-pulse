@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskPulse.TaskDetailPage"
+             xmlns:viewmodel="clr-namespace:TaskPulse.ViewModel"
+             xmlns:model="clr-namespace:TaskPulse.Model"
+             x:DataType="viewmodel:TaskDetailViewModel"
+             Title="Task Detail Page">
+    <StackLayout Padding="20">
+        <StackLayout>
+            <Label Text="Task Title:"
+                FontSize="16"
+                Margin="0,0,0,5"/>
+
+            <Entry Text="{Binding Title}"
+                FontSize="24"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"
+                Margin="0,0,0,10"/>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Note:"
+                FontSize="16"
+                Margin="0,0,0,5"/>
+            
+            <Entry Text="{Binding Note}"
+                FontSize="18"
+                HorizontalTextAlignment="Center"
+                Margin="0,0,0,20"/>
+        </StackLayout>
+        
+
+        <Grid RowDefinitions="Auto"
+              ColumnDefinitions="Auto, *"
+              ColumnSpacing="10">
+            <Label Text="Task Done?" FontSize="18" Grid.Column="0" VerticalOptions="Center" />
+            <Switch IsToggled="{Binding IsDone}" Grid.Column="1" />
+        </Grid>
+
+        <Button Text="Remove current task?"
+                Command="{Binding RemoveTaskCommand}"
+                WidthRequest="250"
+                Margin="0,0,0,20"   />
+        
+        <Button Text="Go back"
+            Command="{Binding GoBackCommand}"
+            WidthRequest="250"/>
+    </StackLayout>
+</ContentPage>

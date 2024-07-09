@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskPulse.MainPage"
+             xmlns:viewmodel="clr-namespace:TaskPulse.ViewModel"
+             xmlns:model="clr-namespace:TaskPulse.Model"
+             x:DataType="viewmodel:MainViewModel">
+
+    <Grid RowDefinitions="125, Auto, *"
+          ColumnDefinitions=".75*, .25*"
+          Padding="20"
+          RowSpacing="10"
+          ColumnSpacing="10">
+
+        <Image Grid.ColumnSpan="2" 
+               Source="rodo_logo.png"
+               BackgroundColor="Transparent"
+               WidthRequest="200"/>
+
+        <Entry Placeholder="Enter your task: " 
+               Grid.Row="1"
+               Text="{Binding InputText, Mode=TwoWay}"/>
+
+        <Button Text="+" Grid.Row="1" 
+                Grid.Column="1"
+                Command="{Binding AddTaskCommand}"/>
+
+        <CollectionView Grid.Row="2" Grid.ColumnSpan="2"
+                        ItemsSource="{Binding TaskItems}"
+                        SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:TaskItem">
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Remove"
+                                           BackgroundColor="Red"
+                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=RemoveTaskCommand}"
+                                           CommandParameter="{Binding .}"/>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <Grid Padding="0, 5">
+                            <Frame>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=TaskTapCommand}"
+                                            CommandParameter="{Binding .}"/>
+                                </Frame.GestureRecognizers>
+                                <StackLayout Orientation="Horizontal">
+                                    <CheckBox IsChecked="{Binding IsDone}" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Title}" FontSize="18" VerticalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>
