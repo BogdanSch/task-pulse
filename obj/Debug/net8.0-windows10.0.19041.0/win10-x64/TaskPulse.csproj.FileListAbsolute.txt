@@ -80,7 +80,6 @@ D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041
 D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Composition.TypedParts.dll
 D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.IO.Pipelines.dll
 D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Speech.dll
-D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Text.Json.dll
 D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Microsoft.CodeAnalysis.resources.dll
 D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\de\Microsoft.CodeAnalysis.resources.dll
 D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\es\Microsoft.CodeAnalysis.resources.dll
@@ -262,3 +261,4 @@ D:\My Projects\C# Projects\Net Maui\TaskPulse\obj\Debug\net8.0-windows10.0.19041
 D:\My Projects\C# Projects\Net Maui\TaskPulse\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\My Projects\C# Projects\Net Maui\TaskPulse\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TaskPulse.genpublishdeps.cache
 D:\My Projects\C# Projects\Net Maui\TaskPulse\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\My Projects\C# Projects\Net Maui\TaskPulse\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TaskPulse.sourcelink.json

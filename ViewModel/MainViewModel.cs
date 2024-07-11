@@ -14,10 +14,18 @@ public partial class MainViewModel : ObservableObject
     private string _inputText;
 
     private readonly TaskService _taskService = new TaskService();
+
     public MainViewModel()
     {
         LoadTasks();
+        Shell.Current.NavigatedTo += OnNavigatedTo;
     }
+
+    ~MainViewModel()
+    {
+        Shell.Current.NavigatedTo -= OnNavigatedTo;
+    }
+
     private void LoadTasks()
     {
         TaskItems = _taskService.GetAllTasks();
@@ -54,11 +62,7 @@ public partial class MainViewModel : ObservableObject
     {
         if (TaskItems.Contains(taskItem))
         {
-            await Shell.Current.GoToAsync(nameof(TaskDetailPage), new Dictionary<string, object>
-            {
-                { "taskItemId", taskItem.Id }
-            });
+            await Shell.Current.GoToAsync($"{nameof(TaskDetailPage)}?TaskItemId={taskItem.Id}");
         }
     }
 }
-

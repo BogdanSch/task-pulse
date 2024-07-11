@@ -1,13 +1,11 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using TaskPulse.Model;
-using System.Collections.ObjectModel;
-using System.Text.Json;
 using TaskPulse.Services;
 
 namespace TaskPulse.ViewModel;
 
-[QueryProperty("TaskItemId", "TaskItemId")]
+[QueryProperty(nameof(TaskItemId), nameof(TaskItemId))]
 public partial class TaskDetailViewModel : ObservableObject
 {
     private TaskItem _taskItem;
@@ -16,19 +14,6 @@ public partial class TaskDetailViewModel : ObservableObject
     [ObservableProperty]
     private int _taskItemId;
 
-    public TaskDetailViewModel(MainViewModel mainViewModel) 
-    {
-        _taskService = new TaskService();
-        InitializeAsync();
-    }
-    private async Task InitializeAsync()
-    {
-        _taskItem = await GetTargetTaskItemAsync();
-        Title = _taskItem.Title;
-        Note = _taskItem.Note;
-        IsDone = _taskItem.IsDone;
-    }
-
     [ObservableProperty]
     private string _title;
     [ObservableProperty]
@@ -36,9 +21,45 @@ public partial class TaskDetailViewModel : ObservableObject
     [ObservableProperty]
     private bool _isDone;
 
-    private async Task<TaskItem> GetTargetTaskItemAsync()
+    public TaskDetailViewModel()
     {
-        return await _taskService.GetTaskItemById(_taskItemId);
+        _taskService = new TaskService();
+        Shell.Current.NavigatedFrom += OnNavigatedFrom;
+    }
+
+    ~TaskDetailViewModel()
+    {
+        Shell.Current.NavigatedFrom -= OnNavigatedFrom;
+    }
+
+    private void OnNavigatedFrom(object? sender, NavigatedFromEventArgs e)
+    {
+        if (_taskItem != null)
+        {
+            _taskItem.Title = Title;
+            _taskItem.Note = Note;
+            _taskItem.IsDone = IsDone;
+            _taskService.UpdateTask(_taskItem);
+        }
+    }
+
+    public void InitializeTaskItem()
+    {
+        if (TaskItemId > 0)
+        {
+            _taskItem = GetTargetTaskItem();
+            if (_taskItem != null)
+            {
+                Title = _taskItem.Title;
+                Note = _taskItem.Note;
+                IsDone = _taskItem.IsDone;
+            }
+        }
+    }
+
+    private TaskItem GetTargetTaskItem()
+    {
+        return _taskService.GetTaskItemById(TaskItemId);
     }
 
     [RelayCommand]
@@ -46,6 +67,9 @@ public partial class TaskDetailViewModel : ObservableObject
     {
         if (_taskItem != null)
         {
+            _taskItem.Title = Title;
+            _taskItem.Note = Note;
+            _taskItem.IsDone = IsDone;
             _taskService.UpdateTask(_taskItem);
         }
         await Shell.Current.GoToAsync("..");
@@ -54,8 +78,10 @@ public partial class TaskDetailViewModel : ObservableObject
     [RelayCommand]
     private async Task RemoveTask()
     {
-        _taskService.RemoveTask(_taskItem);
-        _taskItem = null;
+        if (_taskItem != null)
+        {
+            _taskService.RemoveTask(_taskItem);
+        }
         await GoBack();
     }
 }

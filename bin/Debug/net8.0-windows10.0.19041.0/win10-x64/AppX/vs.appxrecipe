@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-09T20:51:25.762</Modified>
+      <Modified>2024-07-11T21:28:15.136</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-07-09T20:10:08.793</Modified>
+      <Modified>2024-07-10T17:01:56.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TaskPulse.runtimeconfig.json">
       <PackagePath>TaskPulse.runtimeconfig.json</PackagePath>
-      <Modified>2024-07-09T20:10:08.352</Modified>
+      <Modified>2024-07-10T17:01:55.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\My Projects\C# Projects\Net Maui\TaskPulse\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TaskPulse.dll">
       <PackagePath>TaskPulse.dll</PackagePath>
-      <Modified>2024-07-09T20:51:24.399</Modified>
+      <Modified>2024-07-11T21:28:14.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\My Projects\C# Projects\Net Maui\TaskPulse\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TaskPulse.exe</PackagePath>
-      <Modified>2024-07-09T20:51:24.461</Modified>
+      <Modified>2024-07-11T21:28:14.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\My Projects\C# Projects\Net Maui\TaskPulse\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -485,10 +485,6 @@
       <PackagePath>System.Speech.dll</PackagePath>
       <Modified>2023-10-31T15:00:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bohdan\.nuget\packages\system.text.json\8.0.4\lib\net8.0\System.Text.Json.dll">
-      <PackagePath>System.Text.Json.dll</PackagePath>
-      <Modified>2024-06-13T19:35:00.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bohdan\.nuget\packages\microsoft.maui.controls.core\8.0.70\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
       <Modified>2024-07-08T19:05:26.000</Modified>
@@ -639,7 +635,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\My Projects\C# Projects\Net Maui\TaskPulse\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TaskPulse.deps.json">
       <PackagePath>TaskPulse.deps.json</PackagePath>
-      <Modified>2024-07-09T20:10:08.964</Modified>
+      <Modified>2024-07-10T17:01:56.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bohdan\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
       <PackagePath>Humanizer.dll</PackagePath>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8V0ybVM0coA=",
+  "dgSpecHash": "jm3a/sknR5k=",
   "success": true,
   "projectFilePath": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\TaskPulse.csproj",
   "expectedPackageFiles": [
@@ -46,7 +46,7 @@
     "C:\\Users\\Bohdan\\.nuget\\packages\\microsoft.maui.graphics\\8.0.70\\microsoft.maui.graphics.8.0.70.nupkg.sha512",
     "C:\\Users\\Bohdan\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\8.0.70\\microsoft.maui.graphics.win2d.winui.desktop.8.0.70.nupkg.sha512",
     "C:\\Users\\Bohdan\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.70\\microsoft.maui.resizetizer.8.0.70.nupkg.sha512",
-    "C:\\Users\\Bohdan\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.6\\microsoft.net.illink.tasks.8.0.6.nupkg.sha512",
+    "C:\\Users\\Bohdan\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.7\\microsoft.net.illink.tasks.8.0.7.nupkg.sha512",
     "C:\\Users\\Bohdan\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\Bohdan\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240607001\\microsoft.windowsappsdk.1.5.240607001.nupkg.sha512",
     "C:\\Users\\Bohdan\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",

@@ -11,5 +11,6 @@
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <ShellContent Route="TaskDetailPage" ContentTemplate="{DataTemplate local:TaskDetailPage}" />
 
 </Shell>
