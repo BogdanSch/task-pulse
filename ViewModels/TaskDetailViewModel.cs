@@ -1,7 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using TaskPulse.Model;
-using TaskPulse.Services;
+using TaskPulse.Repositories;
 
 namespace TaskPulse.ViewModel;
 
@@ -9,7 +9,7 @@ namespace TaskPulse.ViewModel;
 public partial class TaskDetailViewModel : ObservableObject
 {
     private TaskItem _taskItem;
-    private TaskService _taskService;
+    private TaskRepository _taskService;
 
     [ObservableProperty]
     private int _taskItemId;
@@ -23,7 +23,7 @@ public partial class TaskDetailViewModel : ObservableObject
 
     public TaskDetailViewModel()
     {
-        _taskService = new TaskService();
+        _taskService = new TaskRepository();
         Shell.Current.NavigatedFrom += OnNavigatedFrom;
     }
 

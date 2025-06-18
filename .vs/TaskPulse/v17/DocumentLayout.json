@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\",
+  "WorkspaceRootPath": "D:\\Projects\\CSharp-Projects\\Net Maui\\TaskPulse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|d:\\my projects\\c# projects\\net maui\\taskpulse\\viewmodel\\taskdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|solutionrelative:viewmodel\\taskdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|d:\\projects\\csharp-projects\\net maui\\taskpulse\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|d:\\my projects\\c# projects\\net maui\\taskpulse\\taskdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|solutionrelative:taskdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|d:\\projects\\csharp-projects\\net maui\\taskpulse\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|solutionrelative:repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|d:\\my projects\\c# projects\\net maui\\taskpulse\\model\\appdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|solutionrelative:model\\appdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|d:\\projects\\csharp-projects\\net maui\\taskpulse\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|d:\\my projects\\c# projects\\net maui\\taskpulse\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|solutionrelative:services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|d:\\my projects\\c# projects\\net maui\\taskpulse\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|d:\\my projects\\c# projects\\net maui\\taskpulse\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|d:\\projects\\csharp-projects\\net maui\\taskpulse\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54117D62-7704-4D2F-9E4A-F8BDE7686891}|TaskPulse.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,93 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAQwDYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-09T19:42:18.588Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
-              "ToolTip": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABAAAAALAAAA",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Projects\\CSharp-Projects\\Net Maui\\TaskPulse\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\Projects\\CSharp-Projects\\Net Maui\\TaskPulse\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T20:21:34.755Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T20:08:52.788Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TaskDetailPage.xaml",
-              "DocumentMoniker": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\TaskDetailPage.xaml",
-              "RelativeDocumentMoniker": "TaskDetailPage.xaml",
-              "ToolTip": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\TaskDetailPage.xaml",
-              "RelativeToolTip": "TaskDetailPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-09T20:27:42.742Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\CSharp-Projects\\Net Maui\\TaskPulse\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TaskRepository.cs",
+              "ToolTip": "D:\\Projects\\CSharp-Projects\\Net Maui\\TaskPulse\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T16:55:18.937Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TaskDetailViewModel.cs",
-              "DocumentMoniker": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\ViewModel\\TaskDetailViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\TaskDetailViewModel.cs",
-              "ToolTip": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\ViewModel\\TaskDetailViewModel.cs",
-              "RelativeToolTip": "ViewModel\\TaskDetailViewModel.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAAFAAAA",
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Projects\\CSharp-Projects\\Net Maui\\TaskPulse\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Projects\\CSharp-Projects\\Net Maui\\TaskPulse\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwDQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T20:27:53.866Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\Services\\TaskService.cs",
-              "RelativeDocumentMoniker": "Services\\TaskService.cs",
-              "ToolTip": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\Services\\TaskService.cs",
-              "RelativeToolTip": "Services\\TaskService.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAAwEAAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T16:55:18.937Z",
+              "WhenOpened": "2025-06-18T20:44:24.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppDatabaseContext.cs",
-              "DocumentMoniker": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\Model\\AppDatabaseContext.cs",
-              "RelativeDocumentMoniker": "Model\\AppDatabaseContext.cs",
-              "ToolTip": "D:\\My Projects\\C# Projects\\Net Maui\\TaskPulse\\Model\\AppDatabaseContext.cs",
-              "RelativeToolTip": "Model\\AppDatabaseContext.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwAYAAAAEAAAA",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\CSharp-Projects\\Net Maui\\TaskPulse\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Projects\\CSharp-Projects\\Net Maui\\TaskPulse\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T21:35:13.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T20:08:41.986Z"
             }
           ]
         }

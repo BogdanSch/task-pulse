@@ -1,8 +1,9 @@
 ﻿using TaskPulse.Model;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using TaskPulse.Services;
 using System.Collections.ObjectModel;
+using TaskPulse.Repositories;
+using TaskPulse.Interfaces;
 
 namespace TaskPulse.ViewModel;
 
@@ -13,29 +14,23 @@ public partial class MainViewModel : ObservableObject
     [ObservableProperty]
     private string _inputText;
 
-    private readonly TaskService _taskService = new TaskService();
+    private readonly ITaskRepository _taskRepository;
 
-    public MainViewModel()
+    public MainViewModel(ITaskRepository taskRepository)
     {
-        LoadTasks();
-        Shell.Current.NavigatedTo += OnNavigatedTo;
+        _taskRepository = taskRepository;
+        //LoadTasks();
+        //Shell.Current.NavigatedTo += OnNavigatedTo;
     }
+    //~MainViewModel()
+    //{
+    //    Shell.Current.NavigatedTo -= OnNavigatedTo;
+    //}
 
-    ~MainViewModel()
-    {
-        Shell.Current.NavigatedTo -= OnNavigatedTo;
-    }
-
-    private void LoadTasks()
+    private async Task LoadTasksAsync()
     {
         TaskItems = _taskService.GetAllTasks();
     }
-
-    private void SaveTasks()
-    {
-        _taskService.RewriteTasks(TaskItems);
-    }
-
     [RelayCommand]
     private void AddTask()
     {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskPulse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b42280f93601f62eab05d6076f1be911286a40bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f397c9f6cf863d32f1e45b76f2928a775d77f693")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskPulse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskPulse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
